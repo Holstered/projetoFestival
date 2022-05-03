@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@media(max-width: 700px) {
+  .w-50{
+	width: 100% !important;
+  } 
+}
+
+@media(min-width: 700px) {
+  .w-50{
+	width: 75% !important;
+  } 
+}
+
+@media(min-width: 1000px) {
+  .w-50{
+	width: 50% !important;
+  } 
+}
+
+iframe {
+overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+

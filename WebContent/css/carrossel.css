@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media(max-width: 768px) {
+  #img1{
+  	width: 99%;
+  	height: 300px;
+  }
+  
+   #img2{
+  	width: 99%;
+  	height: 300px;
+  } 
+  
+   #img3{
+  	width: 99%;
+  	height: 300px;
+  }
+}
+
+@media(min-width: 768px) {
+	#img1{
+  	width: 99%;
+  	height: 550px;
+  }
+	
+  #img2{
+  	width: 99%;
+  	height: 550px;
+  } 
+  
+   #img3{
+  	width: 99%;
+  	height: 550px;
+  }
+}
+
+@media(min-width: 1000px) {
+	#img1{
+  	width: 99%;
+  	height: 790px;
+  }
+  
+   #img2{
+  	width: 99%;
+  	height: 790px;
+  }
+  
+   #img3{
+  	width: 99%;
+  	height: 790px;
+  }
+}
